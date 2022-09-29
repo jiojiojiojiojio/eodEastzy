@@ -81,7 +81,7 @@ public class ZzimController {
 		ModelAndView mav = new ModelAndView();
 		
 		int r=service.addZzim(zzimdto);
-		
+		//ㅁㅇ니ㅏ러;미아ㅓ;ㅁㄴ리엄ㅇ;ㅣㅏㅓㅁㄹ이말ㅇ
 		if(r>0) {
 			mav.setViewName("redirect:ListAll?u_p_id=" + zzimdto.getU_p_id());
 		}
